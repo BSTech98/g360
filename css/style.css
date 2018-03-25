@@ -32,6 +32,9 @@ body {
   float:left;
   width:50%;
 }
+.links {
+color:white; text-decoration:none
+}
 .logo{
   background-color:rgb(255, 255, 255);
   border-top-left-radius:5px;
