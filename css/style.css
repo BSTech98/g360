@@ -7,18 +7,22 @@ body {
 .clearfix{
   clear:both;
 }
+
+.center-cropped {
+  object-fit: cover;
+  object-position: center;
+  width:100%;  
+  opacity:0.2;
+  display:inline-block;
+  margin: 0 auto;
+  position:absolute;
+}
+
 .header-banner{
-  padding-top:35px;
-  padding-bottom:100px;
+  
   color:rgb(255, 255, 255);
   font-family:Helvetica, serif;
   font-weight:100;
-  background-image:url("http://grapesjs.com/img/bg-gr-v.png"), url("banner.jpg");
-  background-attachment:scroll, scroll;
-  background-position-x:left, center;
-  background-position-y:top, center;
-  background-repeat:repeat-y, no-repeat;
-  background-size:contain, cover;
 }
 .container-width{
   width:90%;
@@ -60,7 +64,7 @@ text-decoration:none
 .menu-item{
   float:right;
   font-size:15px;
-  color:rgb(238, 238, 238);
+  color:rgb(255, 255, 255);
   width:130px;
   padding-top:10px;
   padding-right:10px;
@@ -72,10 +76,10 @@ text-decoration:none
   font-weight:400;
 }
 .lead-title{
-  margin-top:150px;
+  margin-top:10px;
   margin-right:0px;
-  margin-bottom:30px;
-  margin-left:0px;
+  margin-bottom:10px;
+  margin-left:40px;
   font-size:40px;
 }
 .sub-lead-title{
@@ -375,7 +379,7 @@ text-decoration:none
   background-color:rgb(214, 106, 150);
 }
 .footer-under{
-  background-color:rgb(49, 40, 51);
+  background-color:rgb(0, 0, 0);
   padding-bottom:100px;
   padding-top:100px;
   min-height:500px;
@@ -477,7 +481,7 @@ text-decoration:none
   border-bottom-right-radius:2px;
   border-bottom-left-radius:2px;
   color:rgb(255, 255, 255);
-  background-color:rgb(85, 76, 87);
+  background-color:rgb(20, 20, 20);
   border-top-color:currentcolor;
   border-top-style:none;
   border-top-width:medium;
@@ -502,7 +506,7 @@ text-decoration:none
   margin-right:0px;
   margin-bottom:15px;
   margin-left:0px;
-  background-color:rgb(120, 85, 128);
+  background-color:rgb(50, 50, 50);
   border-top-color:currentcolor;
   border-top-style:none;
   border-top-width:medium;
