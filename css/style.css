@@ -140,7 +140,7 @@ text-decoration:none
 }
 .flex-desc{
   margin-bottom:55px;
-  font-size:1em;
+  font-size:2rem;
   color:rgba(0, 0, 0, 0.5);
   text-align:center;
   padding-top:5px;
@@ -212,6 +212,7 @@ text-decoration:none
 .card-title{
   font-size:1.4em;
   margin-bottom:5px;
+  text-align:center;
 }
 .card-sub-title{
   color:rgb(179, 179, 179);
@@ -221,6 +222,11 @@ text-decoration:none
 .card-desc{
   font-size:0.85rem;
   line-height:17px;
+  align-text:center;
+  margin:10px;
+  font-size:1.5rem;
+  vertical-align: middle;
+  display:inline-block;
 }
 .am-sect{
   padding-top:100px;
@@ -323,7 +329,7 @@ text-decoration:none
   margin-bottom:0px;
   margin-left:auto;
   min-height:350px;
-  background-color:rgb(217, 131, 166);
+  background-color:rgb(42, 198, 216);
   border-top-left-radius:5px;
   border-top-right-radius:5px;
   border-bottom-right-radius:5px;
@@ -351,7 +357,7 @@ text-decoration:none
   text-align:center;
 }
 .pc-feature{
-  color:rgba(255, 255, 255, 0.5);
+  color:rgba(255, 255, 255);
   background-color:rgba(0, 0, 0, 0.1);
   letter-spacing:2px;
   font-size:15px;
@@ -373,10 +379,10 @@ text-decoration:none
   padding-left:0px;
 }
 .pc-regular{
-  background-color:rgb(218, 120, 160);
+  background-color:rgb(42, 198, 216);
 }
 .pc-enterprise{
-  background-color:rgb(214, 106, 150);
+  background-color:rgb(42, 198, 216);
 }
 .footer-under{
   background-color:rgb(0, 0, 0);
@@ -537,10 +543,10 @@ text-decoration:none
   cursor:pointer;
 }
 .sub-btn:hover{
-  background-color:rgb(145, 105, 154);
+  background-color:rgb(67, 168, 180);
 }
 .sub-btn:active{
-  background-color:rgb(87, 63, 92);
+  background-color:rgb(15, 93, 102);
 }
 .bdg-sect{
   padding-top:100px;
@@ -581,7 +587,7 @@ text-decoration:none
 }
 .badge-header{
   height:115px;
-  background-image:url("http://grapesjs.com/img/bg-gr-v.png"), url("http://grapesjs.com/img/work-desk.jpg");
+  /*background-image:url("http://grapesjs.com/img/bg-gr-v.png"), url("http://grapesjs.com/img/work-desk.jpg");*/
   background-position-x:left, center;
   background-position-y:top, center;
   background-attachment:scroll, fixed;
@@ -594,12 +600,14 @@ text-decoration:none
 }
 .badge-role{
   color:rgb(119, 119, 119);
-  font-size:1em;
+  font-size:2rem;
   margin-bottom:25px;
 }
 .badge-desc{
-  font-size:0.85rem;
+  font-size:1rem;
   line-height:20px;
+  display:inline-block;
+  white-space:normal;
 }
 .badge-avatar{
   width:100px;
@@ -637,7 +645,7 @@ text-decoration:none
 }
 .badge-foot{
   color:rgb(255, 255, 255);
-  background-color:rgb(162, 144, 165);
+  background-color:rgb(42, 198, 216);
   padding-top:13px;
   padding-bottom:13px;
   display:flex;
@@ -649,7 +657,7 @@ text-decoration:none
   line-height:35px;
   font-weight:700;
   background-color:rgb(255, 255, 255);
-  color:rgb(162, 144, 165);
+  color:rgb(42, 198, 216);
   display:block;
   border-top-left-radius:100%;
   border-top-right-radius:100%;
