@@ -595,7 +595,7 @@ text-decoration:none
   overflow-y:hidden;
 }
 .badge-name{
-  font-size:1.4em;
+  font-size:2em;
   margin-bottom:5px;
 }
 .badge-role{
@@ -604,7 +604,7 @@ text-decoration:none
   margin-bottom:25px;
 }
 .badge-desc{
-  font-size:1rem;
+  font-size:1.5rem;
   line-height:20px;
   display:inline-block;
   white-space:normal;
